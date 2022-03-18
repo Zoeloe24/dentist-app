@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 import django_heroku     # to host heroku
 import dj_database_url   # to host heroku
 from decouple import config  # to host heroku
