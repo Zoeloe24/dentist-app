@@ -1,12 +1,10 @@
 import os
-from pathlib import Path
 import django_heroku     # to host heroku
 import dj_database_url   # to host heroku
 from decouple import config  # to host heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 
